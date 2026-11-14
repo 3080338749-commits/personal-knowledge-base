@@ -1,0 +1,922 @@
+[
+  {
+    "id": "B01",
+    "title": "硬件工程师是干什么的",
+    "module": "基础知识",
+    "source_ids": [
+      "SRC-019357a659b7"
+    ],
+    "pages": "2–12",
+    "kind": "导论",
+    "basis": "讲义主题映射，非官方课时编号",
+    "coverage": "讲义主题可定位"
+  },
+  {
+    "id": "B02",
+    "title": "电阻器件的手册解读",
+    "module": "基础知识",
+    "source_ids": [
+      "SRC-019357a659b7"
+    ],
+    "pages": "13–61",
+    "kind": "理论与选型",
+    "basis": "讲义主题映射，非官方课时编号",
+    "coverage": "讲义主题可定位"
+  },
+  {
+    "id": "B03",
+    "title": "电容的手册解读与参数介绍",
+    "module": "基础知识",
+    "source_ids": [
+      "SRC-019357a659b7"
+    ],
+    "pages": "62–108",
+    "kind": "理论与选型",
+    "basis": "讲义主题映射，非官方课时编号",
+    "coverage": "讲义主题可定位"
+  },
+  {
+    "id": "B04",
+    "title": "电感的介绍",
+    "module": "基础知识",
+    "source_ids": [
+      "SRC-ea549828c5dd"
+    ],
+    "pages": "1–43",
+    "kind": "理论与选型",
+    "basis": "讲义主题映射，非官方课时编号",
+    "coverage": "讲义主题可定位"
+  },
+  {
+    "id": "B05",
+    "title": "磁珠介绍与手册解读",
+    "module": "基础知识",
+    "source_ids": [
+      "SRC-04d3eaeffca5"
+    ],
+    "pages": "48–62",
+    "kind": "理论与选型",
+    "basis": "讲义主题映射，非官方课时编号",
+    "coverage": "讲义主题可定位"
+  },
+  {
+    "id": "B06",
+    "title": "二极管介绍与手册解读",
+    "module": "基础知识",
+    "source_ids": [
+      "SRC-04d3eaeffca5"
+    ],
+    "pages": "63–117",
+    "kind": "理论与设计",
+    "basis": "讲义主题映射，非官方课时编号",
+    "coverage": "讲义主题可定位"
+  },
+  {
+    "id": "B07",
+    "title": "三极管&MOS介绍",
+    "module": "基础知识",
+    "source_ids": [
+      "SRC-78dec95438dc"
+    ],
+    "pages": "1–81",
+    "kind": "理论与设计",
+    "basis": "讲义主题映射，非官方课时编号",
+    "coverage": "讲义主题可定位"
+  },
+  {
+    "id": "B08",
+    "title": "逻辑器件介绍与应用",
+    "module": "基础知识",
+    "source_ids": [
+      "SRC-378fda1c12f9"
+    ],
+    "pages": "1–67",
+    "kind": "理论与设计",
+    "basis": "讲义主题映射，非官方课时编号",
+    "coverage": "讲义主题可定位"
+  },
+  {
+    "id": "B09",
+    "title": "LDO原理与电路设计",
+    "module": "基础知识",
+    "source_ids": [
+      "SRC-d65ecea03671"
+    ],
+    "pages": "1–49",
+    "kind": "电源设计",
+    "basis": "讲义主题映射，非官方课时编号",
+    "coverage": "讲义主题可定位"
+  },
+  {
+    "id": "B10",
+    "title": "DC-DC原理与电路设计",
+    "module": "基础知识",
+    "source_ids": [
+      "SRC-8337e23217b9"
+    ],
+    "pages": "1–94",
+    "kind": "电源设计",
+    "basis": "讲义主题映射，非官方课时编号",
+    "coverage": "讲义主题可定位"
+  },
+  {
+    "id": "B11",
+    "title": "RS232电路设计",
+    "module": "基础知识",
+    "source_ids": [
+      "SRC-790d06d4f2f5"
+    ],
+    "pages": "1–14",
+    "kind": "接口设计",
+    "basis": "讲义主题映射，非官方课时编号",
+    "coverage": "讲义主题可定位"
+  },
+  {
+    "id": "B12",
+    "title": "RS485&422电路设计",
+    "module": "基础知识",
+    "source_ids": [
+      "SRC-790d06d4f2f5"
+    ],
+    "pages": "15–29",
+    "kind": "接口设计",
+    "basis": "讲义主题映射，非官方课时编号",
+    "coverage": "讲义主题可定位"
+  },
+  {
+    "id": "B13",
+    "title": "常见接口电路设计-I2C",
+    "module": "基础知识",
+    "source_ids": [
+      "SRC-790d06d4f2f5"
+    ],
+    "pages": "30–49",
+    "kind": "接口设计",
+    "basis": "讲义主题映射，非官方课时编号",
+    "coverage": "讲义主题可定位"
+  },
+  {
+    "id": "B14",
+    "title": "常见接口电路设计-SPI",
+    "module": "基础知识",
+    "source_ids": [
+      "SRC-790d06d4f2f5"
+    ],
+    "pages": "50–65",
+    "kind": "接口设计",
+    "basis": "讲义主题映射，非官方课时编号",
+    "coverage": "讲义主题可定位"
+  },
+  {
+    "id": "B15",
+    "title": "常见接口电路设计-USB接口设计",
+    "module": "基础知识",
+    "source_ids": [
+      "SRC-790d06d4f2f5"
+    ],
+    "pages": "66–76",
+    "kind": "接口设计",
+    "basis": "讲义主题映射，非官方课时编号",
+    "coverage": "讲义主题可定位"
+  },
+  {
+    "id": "B16",
+    "title": "常见接口电路设计-网口设计",
+    "module": "基础知识",
+    "source_ids": [
+      "SRC-790d06d4f2f5"
+    ],
+    "pages": "77–94",
+    "kind": "接口设计",
+    "basis": "讲义主题映射，非官方课时编号",
+    "coverage": "讲义主题可定位"
+  },
+  {
+    "id": "B17",
+    "title": "光耦介绍",
+    "module": "基础知识",
+    "source_ids": [
+      "SRC-0cd2317704a1"
+    ],
+    "pages": "1–9",
+    "kind": "隔离设计",
+    "basis": "讲义主题映射，非官方课时编号",
+    "coverage": "讲义主题可定位"
+  },
+  {
+    "id": "B18",
+    "title": "运放课程PPT（含光耦课件）",
+    "module": "基础知识",
+    "source_ids": [
+      "SRC-366faad3369b"
+    ],
+    "pages": "68–90",
+    "kind": "模拟电路补充",
+    "basis": "讲义主题映射，非官方课时编号",
+    "coverage": "讲义主题可定位"
+  },
+  {
+    "id": "S01",
+    "title": "课程介绍",
+    "module": "千兆5口交换机",
+    "source_ids": [
+      "SRC-bb7239da0a6e"
+    ],
+    "pages": "1–7",
+    "kind": "项目实践",
+    "basis": "讲义主题映射，非官方课时编号",
+    "coverage": "讲义主题可定位"
+  },
+  {
+    "id": "S02",
+    "title": "项目需求分析",
+    "module": "千兆5口交换机",
+    "source_ids": [
+      "SRC-bb7239da0a6e"
+    ],
+    "pages": "8–11",
+    "kind": "项目实践",
+    "basis": "讲义主题映射，非官方课时编号",
+    "coverage": "讲义主题可定位"
+  },
+  {
+    "id": "S03",
+    "title": "器件选型",
+    "module": "千兆5口交换机",
+    "source_ids": [
+      "SRC-bb7239da0a6e"
+    ],
+    "pages": "12–17",
+    "kind": "项目实践",
+    "basis": "讲义主题映射，非官方课时编号",
+    "coverage": "讲义主题可定位"
+  },
+  {
+    "id": "S04",
+    "title": "RTL8367手册解读",
+    "module": "千兆5口交换机",
+    "source_ids": [
+      "SRC-bb7239da0a6e"
+    ],
+    "pages": "18–24",
+    "kind": "项目实践",
+    "basis": "讲义主题映射，非官方课时编号",
+    "coverage": "讲义主题可定位"
+  },
+  {
+    "id": "S05",
+    "title": "框图设计",
+    "module": "千兆5口交换机",
+    "source_ids": [
+      "SRC-bb7239da0a6e"
+    ],
+    "pages": "25–26",
+    "kind": "项目实践",
+    "basis": "讲义主题映射，非官方课时编号",
+    "coverage": "讲义主题可定位"
+  },
+  {
+    "id": "S06",
+    "title": "新器件建库",
+    "module": "千兆5口交换机",
+    "source_ids": [
+      "SRC-bb7239da0a6e"
+    ],
+    "pages": "27",
+    "kind": "项目实践",
+    "basis": "讲义主题映射，非官方课时编号",
+    "coverage": "讲义主题可定位"
+  },
+  {
+    "id": "S07",
+    "title": "时钟电路设计",
+    "module": "千兆5口交换机",
+    "source_ids": [
+      "SRC-bb7239da0a6e"
+    ],
+    "pages": "28",
+    "kind": "项目实践",
+    "basis": "讲义主题映射，非官方课时编号",
+    "coverage": "讲义主题可定位"
+  },
+  {
+    "id": "S08",
+    "title": "网络变压器电路设计",
+    "module": "千兆5口交换机",
+    "source_ids": [
+      "SRC-bb7239da0a6e"
+    ],
+    "pages": "29–33",
+    "kind": "项目实践",
+    "basis": "讲义主题映射，非官方课时编号",
+    "coverage": "讲义主题可定位"
+  },
+  {
+    "id": "S09",
+    "title": "网口基础知识",
+    "module": "千兆5口交换机",
+    "source_ids": [
+      "SRC-bb7239da0a6e"
+    ],
+    "pages": "34–35",
+    "kind": "项目实践",
+    "basis": "讲义主题映射，非官方课时编号",
+    "coverage": "讲义主题可定位"
+  },
+  {
+    "id": "S10",
+    "title": "PCB布局",
+    "module": "千兆5口交换机",
+    "source_ids": [
+      "SRC-bb7239da0a6e"
+    ],
+    "pages": "36",
+    "kind": "项目实践",
+    "basis": "讲义主题映射，非官方课时编号",
+    "coverage": "讲义主题可定位"
+  },
+  {
+    "id": "S11",
+    "title": "PCB阻抗计算",
+    "module": "千兆5口交换机",
+    "source_ids": [
+      "SRC-bb7239da0a6e"
+    ],
+    "pages": "37–38",
+    "kind": "项目实践",
+    "basis": "讲义主题映射，非官方课时编号",
+    "coverage": "讲义主题可定位"
+  },
+  {
+    "id": "S12",
+    "title": "板卡调试与项目总结",
+    "module": "千兆5口交换机",
+    "source_ids": [
+      "SRC-bb7239da0a6e"
+    ],
+    "pages": "39–42",
+    "kind": "项目实践",
+    "basis": "讲义主题映射，非官方课时编号",
+    "coverage": "讲义主题可定位"
+  },
+  {
+    "id": "I01",
+    "title": "物联网实战01_课程介绍",
+    "module": "STM32与GD32物联网",
+    "source_ids": [
+      "SRC-956ff19384ec",
+      "SRC-97c04939492d"
+    ],
+    "pages": "1–6",
+    "kind": "方案设计",
+    "basis": "原始课时规划表明确编号",
+    "coverage": "课时表已确认；讲义部分覆盖",
+    "page_source_id": "SRC-97c04939492d"
+  },
+  {
+    "id": "I02",
+    "title": "物联网实战02_项目需求分析",
+    "module": "STM32与GD32物联网",
+    "source_ids": [
+      "SRC-956ff19384ec",
+      "SRC-97c04939492d"
+    ],
+    "pages": "7–9",
+    "kind": "方案设计",
+    "basis": "原始课时规划表明确编号",
+    "coverage": "课时表已确认；讲义部分覆盖",
+    "page_source_id": "SRC-97c04939492d"
+  },
+  {
+    "id": "I03",
+    "title": "物联网实战03_处理器选型",
+    "module": "STM32与GD32物联网",
+    "source_ids": [
+      "SRC-956ff19384ec",
+      "SRC-97c04939492d"
+    ],
+    "pages": "10",
+    "kind": "方案设计",
+    "basis": "原始课时规划表明确编号",
+    "coverage": "课时表已确认；讲义部分覆盖",
+    "page_source_id": "SRC-97c04939492d"
+  },
+  {
+    "id": "I04",
+    "title": "物联网实战04_电源器件选型与框图设计",
+    "module": "STM32与GD32物联网",
+    "source_ids": [
+      "SRC-956ff19384ec",
+      "SRC-97c04939492d"
+    ],
+    "pages": "10–13",
+    "kind": "方案设计",
+    "basis": "原始课时规划表明确编号",
+    "coverage": "课时表已确认；讲义部分覆盖",
+    "page_source_id": "SRC-97c04939492d"
+  },
+  {
+    "id": "I05",
+    "title": "物联网实战05_器件选型与框图设计",
+    "module": "STM32与GD32物联网",
+    "source_ids": [
+      "SRC-956ff19384ec",
+      "SRC-97c04939492d"
+    ],
+    "pages": "10–13",
+    "kind": "方案设计",
+    "basis": "原始课时规划表明确编号",
+    "coverage": "课时表已确认；讲义部分覆盖",
+    "page_source_id": "SRC-97c04939492d"
+  },
+  {
+    "id": "I06",
+    "title": "物联网实战06_器件选型与框图设计",
+    "module": "STM32与GD32物联网",
+    "source_ids": [
+      "SRC-956ff19384ec",
+      "SRC-97c04939492d"
+    ],
+    "pages": "10–13",
+    "kind": "方案设计",
+    "basis": "原始课时规划表明确编号",
+    "coverage": "课时表已确认；讲义部分覆盖",
+    "page_source_id": "SRC-97c04939492d"
+  },
+  {
+    "id": "I07",
+    "title": "物联网实战07_公司进行CIS配置方法",
+    "module": "STM32与GD32物联网",
+    "source_ids": [
+      "SRC-956ff19384ec",
+      "SRC-97c04939492d"
+    ],
+    "pages": "14–15",
+    "kind": "方案设计",
+    "basis": "原始课时规划表明确编号",
+    "coverage": "课时表已确认；讲义部分覆盖",
+    "page_source_id": "SRC-97c04939492d"
+  },
+  {
+    "id": "I08",
+    "title": "物联网实战08_项目新器件建库",
+    "module": "STM32与GD32物联网",
+    "source_ids": [
+      "SRC-956ff19384ec",
+      "SRC-97c04939492d"
+    ],
+    "pages": null,
+    "kind": "方案设计",
+    "basis": "原始课时规划表明确编号",
+    "coverage": "课时表已确认；当前讲义未找到独立对应内容",
+    "page_source_id": "SRC-97c04939492d"
+  },
+  {
+    "id": "I09",
+    "title": "物联网实战09_板卡电源DC-DC手册解读",
+    "module": "STM32与GD32物联网",
+    "source_ids": [
+      "SRC-956ff19384ec",
+      "SRC-97c04939492d"
+    ],
+    "pages": "16–22",
+    "kind": "原理图设计",
+    "basis": "原始课时规划表明确编号",
+    "coverage": "课时表已确认；讲义部分覆盖",
+    "page_source_id": "SRC-97c04939492d"
+  },
+  {
+    "id": "I10",
+    "title": "物联网实战10_板卡电源DC-DC设计1",
+    "module": "STM32与GD32物联网",
+    "source_ids": [
+      "SRC-956ff19384ec",
+      "SRC-97c04939492d"
+    ],
+    "pages": "23–27",
+    "kind": "原理图设计",
+    "basis": "原始课时规划表明确编号",
+    "coverage": "课时表已确认；讲义部分覆盖",
+    "page_source_id": "SRC-97c04939492d"
+  },
+  {
+    "id": "I11",
+    "title": "物联网实战11_板卡电源DC-DC设计2",
+    "module": "STM32与GD32物联网",
+    "source_ids": [
+      "SRC-956ff19384ec",
+      "SRC-97c04939492d"
+    ],
+    "pages": "23–27",
+    "kind": "原理图设计",
+    "basis": "原始课时规划表明确编号",
+    "coverage": "课时表已确认；讲义部分覆盖",
+    "page_source_id": "SRC-97c04939492d"
+  },
+  {
+    "id": "I12",
+    "title": "物联网实战12_板卡电源LDO手册解读与电路设计",
+    "module": "STM32与GD32物联网",
+    "source_ids": [
+      "SRC-956ff19384ec",
+      "SRC-97c04939492d"
+    ],
+    "pages": "28–33",
+    "kind": "原理图设计",
+    "basis": "原始课时规划表明确编号",
+    "coverage": "课时表已确认；讲义部分覆盖",
+    "page_source_id": "SRC-97c04939492d"
+  },
+  {
+    "id": "I13",
+    "title": "物联网实战13_板卡RS232手册解读与电路设计",
+    "module": "STM32与GD32物联网",
+    "source_ids": [
+      "SRC-956ff19384ec",
+      "SRC-97c04939492d"
+    ],
+    "pages": "38–40",
+    "kind": "原理图设计",
+    "basis": "原始课时规划表明确编号",
+    "coverage": "课时表已确认；讲义部分覆盖",
+    "page_source_id": "SRC-97c04939492d"
+  },
+  {
+    "id": "I14",
+    "title": "物联网实战14_板卡RS485手册解读与电路设计",
+    "module": "STM32与GD32物联网",
+    "source_ids": [
+      "SRC-956ff19384ec",
+      "SRC-97c04939492d"
+    ],
+    "pages": "41–46",
+    "kind": "原理图设计",
+    "basis": "原始课时规划表明确编号",
+    "coverage": "课时表已确认；讲义部分覆盖",
+    "page_source_id": "SRC-97c04939492d"
+  },
+  {
+    "id": "I15",
+    "title": "物联网实战15_板卡CAN手册解读与电路设计",
+    "module": "STM32与GD32物联网",
+    "source_ids": [
+      "SRC-956ff19384ec",
+      "SRC-97c04939492d"
+    ],
+    "pages": "47–52",
+    "kind": "原理图设计",
+    "basis": "原始课时规划表明确编号",
+    "coverage": "课时表已确认；讲义部分覆盖",
+    "page_source_id": "SRC-97c04939492d"
+  },
+  {
+    "id": "I16",
+    "title": "物联网实战16_板卡SRAM手册解读与电路设计",
+    "module": "STM32与GD32物联网",
+    "source_ids": [
+      "SRC-956ff19384ec",
+      "SRC-97c04939492d"
+    ],
+    "pages": "67–71",
+    "kind": "原理图设计",
+    "basis": "原始课时规划表明确编号",
+    "coverage": "课时表已确认；讲义部分覆盖",
+    "page_source_id": "SRC-97c04939492d"
+  },
+  {
+    "id": "I17",
+    "title": "物联网实战17_板卡TF卡电路设计",
+    "module": "STM32与GD32物联网",
+    "source_ids": [
+      "SRC-956ff19384ec",
+      "SRC-97c04939492d"
+    ],
+    "pages": "60–66",
+    "kind": "原理图设计",
+    "basis": "原始课时规划表明确编号",
+    "coverage": "课时表已确认；讲义部分覆盖",
+    "page_source_id": "SRC-97c04939492d"
+  },
+  {
+    "id": "I18",
+    "title": "物联网实战18_板卡FLASH&EEPROM电路设计",
+    "module": "STM32与GD32物联网",
+    "source_ids": [
+      "SRC-956ff19384ec",
+      "SRC-97c04939492d"
+    ],
+    "pages": "55–59（仅IIC部分）",
+    "kind": "原理图设计",
+    "basis": "原始课时规划表明确编号",
+    "coverage": "课时表已确认；讲义部分覆盖",
+    "page_source_id": "SRC-97c04939492d"
+  },
+  {
+    "id": "I19",
+    "title": "物联网实战19_板卡蓝牙与WIFI电路设计",
+    "module": "STM32与GD32物联网",
+    "source_ids": [
+      "SRC-956ff19384ec",
+      "SRC-97c04939492d"
+    ],
+    "pages": null,
+    "kind": "原理图设计",
+    "basis": "原始课时规划表明确编号",
+    "coverage": "课时表已确认；当前讲义未找到独立对应内容",
+    "page_source_id": "SRC-97c04939492d"
+  },
+  {
+    "id": "I20",
+    "title": "物联网实战20_板卡光耦&H桥电路设计",
+    "module": "STM32与GD32物联网",
+    "source_ids": [
+      "SRC-956ff19384ec",
+      "SRC-97c04939492d"
+    ],
+    "pages": "72–74（仅H桥部分）",
+    "kind": "原理图设计",
+    "basis": "原始课时规划表明确编号",
+    "coverage": "课时表已确认；讲义部分覆盖",
+    "page_source_id": "SRC-97c04939492d"
+  },
+  {
+    "id": "I21",
+    "title": "物联网实战21_步进电机基础知识",
+    "module": "STM32与GD32物联网",
+    "source_ids": [
+      "SRC-956ff19384ec",
+      "SRC-97c04939492d"
+    ],
+    "pages": "75–79",
+    "kind": "原理图设计",
+    "basis": "原始课时规划表明确编号",
+    "coverage": "课时表已确认；讲义部分覆盖",
+    "page_source_id": "SRC-97c04939492d"
+  },
+  {
+    "id": "I22",
+    "title": "物联网实战22_直流电机基础知识",
+    "module": "STM32与GD32物联网",
+    "source_ids": [
+      "SRC-956ff19384ec",
+      "SRC-97c04939492d"
+    ],
+    "pages": null,
+    "kind": "原理图设计",
+    "basis": "原始课时规划表明确编号",
+    "coverage": "课时表已确认；当前讲义未找到独立对应内容",
+    "page_source_id": "SRC-97c04939492d"
+  },
+  {
+    "id": "I23",
+    "title": "物联网实战23_板卡继电器手册解读与电路设计",
+    "module": "STM32与GD32物联网",
+    "source_ids": [
+      "SRC-956ff19384ec",
+      "SRC-97c04939492d"
+    ],
+    "pages": null,
+    "kind": "原理图设计",
+    "basis": "原始课时规划表明确编号",
+    "coverage": "课时表已确认；当前讲义未找到独立对应内容",
+    "page_source_id": "SRC-97c04939492d"
+  },
+  {
+    "id": "I24",
+    "title": "物联网实战24_板卡电压，电流检测电路设计",
+    "module": "STM32与GD32物联网",
+    "source_ids": [
+      "SRC-956ff19384ec",
+      "SRC-97c04939492d"
+    ],
+    "pages": null,
+    "kind": "原理图设计",
+    "basis": "原始课时规划表明确编号",
+    "coverage": "课时表已确认；当前讲义未找到独立对应内容",
+    "page_source_id": "SRC-97c04939492d"
+  },
+  {
+    "id": "I25",
+    "title": "物联网实战25_板卡其它部分电路设计",
+    "module": "STM32与GD32物联网",
+    "source_ids": [
+      "SRC-956ff19384ec",
+      "SRC-97c04939492d"
+    ],
+    "pages": "34–37、53–54、80–87",
+    "kind": "原理图设计",
+    "basis": "原始课时规划表明确编号",
+    "coverage": "课时表已确认；讲义部分覆盖",
+    "page_source_id": "SRC-97c04939492d"
+  },
+  {
+    "id": "I26",
+    "title": "物联网实战26_板卡原理图设计检查与后处理",
+    "module": "STM32与GD32物联网",
+    "source_ids": [
+      "SRC-956ff19384ec",
+      "SRC-97c04939492d"
+    ],
+    "pages": null,
+    "kind": "原理图设计",
+    "basis": "原始课时规划表明确编号",
+    "coverage": "课时表已确认；当前讲义未找到独立对应内容",
+    "page_source_id": "SRC-97c04939492d"
+  },
+  {
+    "id": "I27",
+    "title": "物联网实战27_板卡PCB布局1",
+    "module": "STM32与GD32物联网",
+    "source_ids": [
+      "SRC-956ff19384ec",
+      "SRC-97c04939492d"
+    ],
+    "pages": null,
+    "kind": "PCB实践",
+    "basis": "原始课时规划表明确编号",
+    "coverage": "课时表已确认；当前讲义未找到独立对应内容",
+    "page_source_id": "SRC-97c04939492d"
+  },
+  {
+    "id": "I28",
+    "title": "物联网实战28_板卡PCB布局2",
+    "module": "STM32与GD32物联网",
+    "source_ids": [
+      "SRC-956ff19384ec",
+      "SRC-97c04939492d"
+    ],
+    "pages": null,
+    "kind": "PCB实践",
+    "basis": "原始课时规划表明确编号",
+    "coverage": "课时表已确认；当前讲义未找到独立对应内容",
+    "page_source_id": "SRC-97c04939492d"
+  },
+  {
+    "id": "I29",
+    "title": "物联网实战29_板卡PCB布线1",
+    "module": "STM32与GD32物联网",
+    "source_ids": [
+      "SRC-956ff19384ec",
+      "SRC-97c04939492d"
+    ],
+    "pages": null,
+    "kind": "PCB实践",
+    "basis": "原始课时规划表明确编号",
+    "coverage": "课时表已确认；当前讲义未找到独立对应内容",
+    "page_source_id": "SRC-97c04939492d"
+  },
+  {
+    "id": "I30",
+    "title": "物联网实战30_板卡PCB布线2",
+    "module": "STM32与GD32物联网",
+    "source_ids": [
+      "SRC-956ff19384ec",
+      "SRC-97c04939492d"
+    ],
+    "pages": null,
+    "kind": "PCB实践",
+    "basis": "原始课时规划表明确编号",
+    "coverage": "课时表已确认；当前讲义未找到独立对应内容",
+    "page_source_id": "SRC-97c04939492d"
+  },
+  {
+    "id": "I31",
+    "title": "物联网实战31_板卡PCB布线3",
+    "module": "STM32与GD32物联网",
+    "source_ids": [
+      "SRC-956ff19384ec",
+      "SRC-97c04939492d"
+    ],
+    "pages": null,
+    "kind": "PCB实践",
+    "basis": "原始课时规划表明确编号",
+    "coverage": "课时表已确认；当前讲义未找到独立对应内容",
+    "page_source_id": "SRC-97c04939492d"
+  },
+  {
+    "id": "I32",
+    "title": "物联网实战32_板卡PCB布线4",
+    "module": "STM32与GD32物联网",
+    "source_ids": [
+      "SRC-956ff19384ec",
+      "SRC-97c04939492d"
+    ],
+    "pages": null,
+    "kind": "PCB实践",
+    "basis": "原始课时规划表明确编号",
+    "coverage": "课时表已确认；当前讲义未找到独立对应内容",
+    "page_source_id": "SRC-97c04939492d"
+  },
+  {
+    "id": "I33",
+    "title": "物联网实战33_板卡PCB检查与制版文件输出",
+    "module": "STM32与GD32物联网",
+    "source_ids": [
+      "SRC-956ff19384ec",
+      "SRC-97c04939492d"
+    ],
+    "pages": null,
+    "kind": "PCB实践",
+    "basis": "原始课时规划表明确编号",
+    "coverage": "课时表已确认；当前讲义未找到独立对应内容",
+    "page_source_id": "SRC-97c04939492d"
+  },
+  {
+    "id": "I34",
+    "title": "物联网实战34_板卡静态阻抗调试",
+    "module": "STM32与GD32物联网",
+    "source_ids": [
+      "SRC-956ff19384ec",
+      "SRC-97c04939492d"
+    ],
+    "pages": "88",
+    "kind": "调试实践",
+    "basis": "原始课时规划表明确编号",
+    "coverage": "课时表已确认；讲义部分覆盖",
+    "page_source_id": "SRC-97c04939492d"
+  },
+  {
+    "id": "I35",
+    "title": "物联网实战35_板卡静态电压调试",
+    "module": "STM32与GD32物联网",
+    "source_ids": [
+      "SRC-956ff19384ec",
+      "SRC-97c04939492d"
+    ],
+    "pages": "89",
+    "kind": "调试实践",
+    "basis": "原始课时规划表明确编号",
+    "coverage": "课时表已确认；讲义部分覆盖",
+    "page_source_id": "SRC-97c04939492d"
+  },
+  {
+    "id": "I36",
+    "title": "物联网实战36_板卡电源纹波与噪声调试",
+    "module": "STM32与GD32物联网",
+    "source_ids": [
+      "SRC-956ff19384ec",
+      "SRC-97c04939492d"
+    ],
+    "pages": null,
+    "kind": "调试实践",
+    "basis": "原始课时规划表明确编号",
+    "coverage": "课时表已确认；当前讲义未找到独立对应内容",
+    "page_source_id": "SRC-97c04939492d"
+  },
+  {
+    "id": "I37",
+    "title": "物联网实战37_板卡时钟调试",
+    "module": "STM32与GD32物联网",
+    "source_ids": [
+      "SRC-956ff19384ec",
+      "SRC-97c04939492d"
+    ],
+    "pages": "90",
+    "kind": "调试实践",
+    "basis": "原始课时规划表明确编号",
+    "coverage": "课时表已确认；讲义部分覆盖",
+    "page_source_id": "SRC-97c04939492d"
+  },
+  {
+    "id": "I38",
+    "title": "物联网实战38_板卡复位调试",
+    "module": "STM32与GD32物联网",
+    "source_ids": [
+      "SRC-956ff19384ec",
+      "SRC-97c04939492d"
+    ],
+    "pages": "91",
+    "kind": "调试实践",
+    "basis": "原始课时规划表明确编号",
+    "coverage": "课时表已确认；讲义部分覆盖",
+    "page_source_id": "SRC-97c04939492d"
+  },
+  {
+    "id": "I39",
+    "title": "物联网实战39_板卡功能验证",
+    "module": "STM32与GD32物联网",
+    "source_ids": [
+      "SRC-956ff19384ec",
+      "SRC-97c04939492d"
+    ],
+    "pages": null,
+    "kind": "调试实践",
+    "basis": "原始课时规划表明确编号",
+    "coverage": "课时表已确认；当前讲义未找到独立对应内容",
+    "page_source_id": "SRC-97c04939492d"
+  },
+  {
+    "id": "I40",
+    "title": "物联网实战40_板卡项目总结",
+    "module": "STM32与GD32物联网",
+    "source_ids": [
+      "SRC-956ff19384ec",
+      "SRC-97c04939492d"
+    ],
+    "pages": null,
+    "kind": "调试实践",
+    "basis": "原始课时规划表明确编号",
+    "coverage": "课时表已确认；当前讲义未找到独立对应内容",
+    "page_source_id": "SRC-97c04939492d"
+  }
+]
